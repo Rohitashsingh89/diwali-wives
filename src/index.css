@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black overflow-hidden text-center;
+  background: radial-gradient(circle, #0f0f0f 0%, #000000 100%);
+}
+
+.glow {
+  text-shadow: 0 0 10px #ff9933, 0 0 20px #ffcc33, 0 0 30px #ffff33;
+}
+
+.blink {
+  animation: blink 1.5s infinite alternate;
+}
+@keyframes blink {
+  0% { opacity: 1; }
+  100% { opacity: 0.2; }
+}
