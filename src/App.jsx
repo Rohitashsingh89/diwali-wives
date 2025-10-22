@@ -81,7 +81,7 @@ export default function App() {
 
   return (
     <>
-      <div className="relative z-10 flex flex-col items-center justify-center h-screen overflow-hidden bg-black/60 backdrop-blur">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen overflow-hidden bg-black/60 backdrop-blur">
         {/* Imperative control via ref */}
         <FireworksFX ref={fwRef} />
 
